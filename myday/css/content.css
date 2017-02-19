@@ -1,0 +1,14 @@
+/*Page contents*/
+.wrapper {
+  /*small boxes*/
+  /*small boxes end*/ }
+  .wrapper .small-box .icon {
+    font-size: 80px; }
+  .wrapper .small-box:hover .icon {
+    font-size: 85px; }
+  .wrapper .goals {
+    background-color: #57BC90; }
+    .wrapper .goals .inner {
+      color: #fff; }
+
+/*# sourceMappingURL=content.css.map */

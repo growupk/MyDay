@@ -28,6 +28,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
   <link rel="stylesheet" href="../css/font-awesome-animation.min.css">
   <link rel ="stylesheet" href="../css/admin-menu.css">
+  <link rel ="stylesheet" href="../css/content.css">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -236,14 +237,14 @@ desired effect
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="main-day-charts text-center">
-          <input type="text" class="knob" data-thickness="0.2" data-anglearc="215" data-angleoffset="-108" value="75" data-width="150" data-height="150" data-fgcolor="#57bb8f">
+          <input type="text" class="knob" data-thickness="0.2" data-anglearc="215" data-angleoffset="-108" value="74" data-width="150" data-height="150" data-fgcolor="#57bb8f">
         </div>
       </div>
 
       <!-- search form (Optional) -->
       <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
+          <input type="text" name="q" class="form-control" placeholder="Keresés...">
               <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
                 </button>
@@ -294,21 +295,38 @@ desired effect
         <div class="row">
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
-          <div class="small-box bg-aqua">
+          <div class="small-box goals">
             <div class="inner">
               <h3>150</h3>
 
-              <p>New Orders</p>
+              <p>Napi célok</p>
             </div>
             <div class="icon">
-              <i class="fa fa-shopping-cart"></i>
+              <i class="fa fa-calendar-check-o"></i>
             </div>
             <a href="#" class="small-box-footer">
-              More info <i class="fa fa-arrow-circle-right"></i>
+              Tovább <i class="fa fa-arrow-circle-right"></i>
             </a>
           </div>
         </div>
         <!-- ./col -->
+          <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-red">
+              <div class="inner">
+                <h3>65</h3>
+
+                <p>Statisztika</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-pie-graph"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                Tovább <i class="fa fa-arrow-circle-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- ./col -->
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
           <div class="small-box bg-green">
@@ -336,23 +354,6 @@ desired effect
             </div>
             <div class="icon">
               <i class="ion ion-person-add"></i>
-            </div>
-            <a href="#" class="small-box-footer">
-              More info <i class="fa fa-arrow-circle-right"></i>
-            </a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-red">
-            <div class="inner">
-              <h3>65</h3>
-
-              <p>Unique Visitors</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-pie-graph"></i>
             </div>
             <a href="#" class="small-box-footer">
               More info <i class="fa fa-arrow-circle-right"></i>
@@ -473,9 +474,15 @@ desired effect
   $(document).ready(function(){
     $('.knob').knob({
       stopper: true,
-      readOnly: true
+      readOnly: true,
+      'format' : function (value) {
+        return value + '%';
+      }
     });
-    $('.knob').css("margin-top","40px");
+    $('.knob').css({
+      'margin-top' : '40px',
+      'color' : '#fff'
+    });
     $('.sidebar-toggle').click(function(){
       $('.main-day-charts').toggleClass('hide');
     });
