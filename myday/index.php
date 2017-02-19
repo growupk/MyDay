@@ -34,6 +34,8 @@
 </head>
 
 <body>
+<div id="fb-root"></div>
+<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div>
     <!-- Top content -->
     <div class="top-content">
         <div class="inner-bg">

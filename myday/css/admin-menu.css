@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Lily+Script+One");
+.wrapper .user-panel {
+  max-height: 120px; }
+.wrapper .main-header .logo {
+  background-color: transparent; }
+  .wrapper .main-header .logo .logo-lg {
+    font-size: 28px;
+    color: #57BC90;
+    text-shadow: 5px 2px 5px #000;
+    font-style: italic;
+    font-family: 'Lily Script One', cursive; }
+  .wrapper .main-header .logo:hover {
+    background-color: transparent; }
+  .wrapper .main-header .logo .logo-mini {
+    color: #57BC90;
+    text-shadow: 5px 2px 5px #000;
+    font-style: italic;
+    font-family: 'Lily Script One', cursive; }
+.wrapper .main-header .navbar {
+  background-color: #499071; }
+  .wrapper .main-header .navbar .sidebar-toggle:hover {
+    background-color: transparent; }
+.wrapper .sidebar-menu.left .sun a {
+  padding-top: 8px;
+  padding-bottom: 8px; }
+.wrapper .sidebar-menu.left li #sun-logo {
+  height: 28px;
+  position: relative;
+  margin-left: -8px;
+  margin-right: 5px; }
+.wrapper .sidebar-menu.left li.active > a, .wrapper .sidebar-menu.left li:hover > a {
+  border-left-color: #57bb8f; }
+
+/*# sourceMappingURL=admin-menu.css.map */
