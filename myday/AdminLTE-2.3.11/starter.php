@@ -237,7 +237,8 @@ desired effect
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="main-day-charts text-center">
-          <input type="text" class="knob" data-thickness="0.2" data-anglearc="215" data-angleoffset="-108" value="74" data-width="150" data-height="150" data-fgcolor="#57bb8f">
+          <span class="finalCountdown"></span>
+          <input type="text" class="knob" data-thickness="0.2" data-anglearc="215" data-angleoffset="-108" value="30.5" data-width="150" data-height="150" data-fgcolor="#57bb8f">
         </div>
       </div>
 
@@ -462,6 +463,7 @@ desired effect
 
 <!-- jQuery 2.2.3 -->
 <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="../js/function.js"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->

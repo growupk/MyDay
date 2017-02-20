@@ -28,7 +28,27 @@
   position: relative;
   margin-left: -8px;
   margin-right: 5px; }
-.wrapper .sidebar-menu.left li.active > a, .wrapper .sidebar-menu.left li:hover > a {
+.wrapper .sidebar-menu.left li.active > a,
+.wrapper .sidebar-menu.left li:hover > a {
   border-left-color: #57bb8f; }
+
+.main-day-charts.text-center {
+  position: relative; }
+  .main-day-charts.text-center .finalCountdown {
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 24px;
+    line-height: normal;
+    font-family: Arial;
+    text-align: center;
+    color: white; }
 
 /*# sourceMappingURL=admin-menu.css.map */

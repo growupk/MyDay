@@ -1,52 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Lily+Script+One');
-.wrapper{
-  .user-panel{
+.wrapper {
+  .user-panel {
     max-height: 120px;
   }
-  .main-header{
-    .logo{
-      background-color: transparent/*#3d6852*/;
-      .logo-lg{
+  .main-header {
+    .logo {
+      background-color: transparent/*#3d6852*/
+      ;
+      .logo-lg {
         font-size: 28px;
         color: #57BC90;
         text-shadow: 5px 2px 5px #000;
         font-style: italic;
         font-family: 'Lily Script One', cursive;
       }
-      &:hover{
+      &:hover {
         background-color: transparent;
       }
-      .logo-mini{
+      .logo-mini {
         color: #57BC90;
         text-shadow: 5px 2px 5px #000;
         font-style: italic;
         font-family: 'Lily Script One', cursive;
       }
     }
-    .navbar{
+    .navbar {
       background-color: #499071;
-      .sidebar-toggle:hover{
+      .sidebar-toggle:hover {
         background-color: transparent;
       }
     }
   }
-  .sidebar-menu.left{
-    .sun{
-      a{
+  .sidebar-menu.left {
+    .sun {
+      a {
         padding-top: 8px;
         padding-bottom: 8px;
       }
     }
-    li{
-      #sun-logo{
+    li {
+      #sun-logo {
         height: 28px;
         position: relative;
         margin-left: -8px;
         margin-right: 5px;
       }
     }
-    li.active>a, li:hover>a{
+    li.active>a,
+    li:hover>a {
       border-left-color: #57bb8f;
     }
+  }
+}
+
+.main-day-charts.text-center {
+  position: relative;
+  .finalCountdown {
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 24px;
+    line-height: normal;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(255, 255, 255);
   }
 }
