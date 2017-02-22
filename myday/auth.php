@@ -22,7 +22,7 @@
                 $_SESSION['login_user'] = $myusername;
                 header("location: AdminLTE-2.3.11/starter.php");
             }else {
-                header("location: ../index.php?success=0");
+                header("location: index.php?success=0");
             }
         }
 ?>

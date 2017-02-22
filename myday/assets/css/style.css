@@ -56,18 +56,6 @@ img {
 	max-width: 100%;
 }
 
-::-moz-selection {
-	background: #de615e;
-	color: #fff;
-	text-shadow: none;
-}
-
-::selection {
-	background: #de615e;
-	color: #fff;
-	text-shadow: none;
-}
-
 .btn-link-1 {
 	display: inline-block;
 	height: 50px;
@@ -234,7 +222,7 @@ img {
 }
 
 .social-login {
-	margin-top: 35px;
+	margin-top: 10px;
 }
 
 .social-login h3 {

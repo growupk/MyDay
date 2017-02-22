@@ -40,6 +40,13 @@ jQuery(document).ready(function () {
 		js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.8";
 		fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));
+
+	//registration
+	$('.regButton').click(function(){
+		if($('.login-form.registration').height() == 0){
+			$('.login-form.registration').animate({'height' : '195px'}, 500);
+		}
+	});
 });
 
 $(window).resize(function(){
