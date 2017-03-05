@@ -34,8 +34,8 @@
 </head>
 
 <body>
-<div id="fb-root"></div>
-<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div>
+    <div id="fb-root"></div>
+    <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="false"></div>
     <!-- Top content -->
     <div class="top-content">
         <div class="inner-bg">
@@ -63,6 +63,16 @@
                                 <button type="submit" class="btn">Bejelentkezés</button>
                                 <span class="error"><?php echo $error; ?></span>
                             </form>
+                            <form method="post" action="regsitration.php" class="login-form registration">
+                                <input type="text" name="FirstName" placeholder="Vezetéknév">
+                                <input type="text" name="LastName" placeholder="Keresztnév">
+                                <input type="date" name="Birthday" placeholder="Születési dátum">
+                                <input type="text" name="Email" placeholder="E-mail">
+                                <input type="password" name="Password" placeholder="Jelszó">
+                                <input type="password" name="Password-re" placeholder="Jelszó megerősítés">
+                                <input type="submit" class="hidden">
+                            </form>
+                            <a class="btn regButton">Regisztráció</a>
                         </div>
                     </div>
                 </div>
