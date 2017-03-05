@@ -11,6 +11,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>MyDay</title>
+  <link rel="shortcut icon" href="../images/sun-logo.png" />
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -241,7 +242,20 @@ desired effect
           <input type="text" class="knob" data-thickness="0.2" data-anglearc="215" data-angleoffset="-108" value="30.5" data-width="150" data-height="150" data-fgcolor="#57bb8f">
         </div>
       </div>
-
+      <div class="smiles">
+        <div class="smile-box">
+          <img src="../images/smile1.png" alt="">
+          <p class="green-border">5</p>
+        </div>
+        <div class="smile-box">
+          <img src="../images/smile2.png" alt="">
+          <p class="yellow-border">2</p>
+        </div>
+        <div class="smile-box">
+          <img src="../images/smile3.png" alt="">
+          <p class="red-border">1</p>
+        </div>
+      </div>
       <!-- search form (Optional) -->
       <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
@@ -278,106 +292,17 @@ desired effect
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Page Header
-        <small>Optional description</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-        <li class="active">Here</li>
-      </ol>
-    </section>
-
-    <!-- Main content -->
-    <section class="content">
-        <div class="row">
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box goals">
-            <div class="inner">
-              <h3>150</h3>
-
-              <p>Napi célok</p>
-            </div>
-            <div class="icon">
-              <i class="fa fa-calendar-check-o"></i>
-            </div>
-            <a href="#" class="small-box-footer">
-              Tovább <i class="fa fa-arrow-circle-right"></i>
-            </a>
-          </div>
-        </div>
-        <!-- ./col -->
-          <div class="col-lg-3 col-xs-6">
-            <!-- small box -->
-            <div class="small-box bg-red">
-              <div class="inner">
-                <h3>65</h3>
-
-                <p>Statisztika</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="#" class="small-box-footer">
-                Tovább <i class="fa fa-arrow-circle-right"></i>
-              </a>
-            </div>
-          </div>
-          <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-green">
-            <div class="inner">
-              <h3>53<sup style="font-size: 20px">%</sup></h3>
-
-              <p>Bounce Rate</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-stats-bars"></i>
-            </div>
-            <a href="#" class="small-box-footer">
-              More info <i class="fa fa-arrow-circle-right"></i>
-            </a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-yellow">
-            <div class="inner">
-              <h3>44</h3>
-
-              <p>User Registrations</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-person-add"></i>
-            </div>
-            <a href="#" class="small-box-footer">
-              More info <i class="fa fa-arrow-circle-right"></i>
-            </a>
-          </div>
-        </div>
-        <!-- ./col -->
-      </div>
-      <!-- Your Page Content Here -->
-
-    </section>
-    <!-- /.content -->
-  </div>
+  <?php include 'pages/home.php';?>
   <!-- /.content-wrapper -->
 
   <!-- Main Footer -->
   <footer class="main-footer">
     <!-- To the right -->
     <div class="pull-right hidden-xs">
-      Anything you want
+      Legyen egy csodás napod!
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
+    <strong><i class="fa fa-home" aria-hidden="true"></i><a href="#">MyDay</a> &copy; 2017</strong>
   </footer>
 
   <!-- Control Sidebar -->
