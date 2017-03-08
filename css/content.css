@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Lily+Script+One");
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+/*Page contents*/
+.wrapper {
+  /*content header title*/
+  /*small boxes*/
+  /*small boxes end*/ }
+  .wrapper .content-header {
+    background: #57bb8f;
+    padding: 15px 15px 15px 15px; }
+    .wrapper .content-header h1 {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: 'Bangers', cursive;
+      color: #fffff8;
+      font-size: 35px;
+      text-shadow: 1px 2px 4px #000; }
+  .wrapper .small-box .icon {
+    font-size: 80px; }
+  .wrapper .small-box:hover .icon {
+    font-size: 85px; }
+  .wrapper .goals {
+    background-color: #57BC90; }
+    .wrapper .goals .inner {
+      color: #fff; }
+
+/*# sourceMappingURL=content.css.map */

@@ -1,0 +1,36 @@
+@import "fonts";
+/*Page contents*/
+.wrapper{
+  /*content header title*/
+  .content-header{
+    background: #57bb8f;
+    padding: 15px 15px 15px 15px;
+    h1{
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: 'Bangers', cursive;
+      color: #fffff8;
+      font-size: 35px;
+      text-shadow: 1px 2px 4px #000;
+    }
+  }
+  /*small boxes*/
+  .small-box{
+    .icon{
+      font-size: 80px;
+    }
+    &:hover{
+      .icon{
+        font-size: 85px;
+      }
+    }
+  }
+  .goals{
+    background-color: #57BC90;
+    .inner{
+      color: #fff;
+    }
+  }
+  /*small boxes end*/
+}
