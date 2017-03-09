@@ -1,4 +1,5 @@
 @import "fonts";
+@import "colors";
 /*Page contents*/
 .wrapper{
   /*content header title*/
@@ -27,10 +28,50 @@
     }
   }
   .goals{
-    background-color: #57BC90;
+    background-color: $default-green;
     .inner{
       color: #fff;
     }
   }
   /*small boxes end*/
+
+  /*goals page*/
+  .default-green{
+    background-color: $default-green;
+    color: #fff;
+  }
+  .default-yellow{
+    background-color: $default-yellow;
+    color: #fff;
+  }
+  .default-red{
+    background-color: $default-red;
+    color: #fff;
+  }
+  #color-chooser{
+    .event-green{
+      color: $default-green;
+    }
+    .event-yellow{
+      color: $default-yellow;
+    }
+    .event-red{
+      color: $default-red;
+    }
+    a{
+      margin-left: 10px;
+    }
+    span{
+      position: relative;
+      font-size: 20px;
+      padding-left: 5px;
+      top: -4px;
+    }
+  }
+  .btn-event-primary{
+    background-color: $default-green;
+    border-color: $default-green;
+    color: #fff;
+  }
+  /*goals page end*/
 }

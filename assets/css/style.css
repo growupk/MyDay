@@ -206,7 +206,7 @@ img {
 	-moz-border-radius: 0 0 4px 4px;
 	-webkit-border-radius: 0 0 4px 4px;
 	border-radius: 0 0 4px 4px;
-	text-align: left;
+	text-align: center;
 }
 
 .form-bottom form textarea {
@@ -220,7 +220,11 @@ img {
 .form-bottom form .input-error {
 	border-color: #de615e;
 }
-
+.error{
+	color: #57bc90;
+	font-size: 15px;
+	font-weight: bold;
+}
 .social-login {
 	margin-top: 10px;
 }

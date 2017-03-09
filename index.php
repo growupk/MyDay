@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
     if($_SERVER['QUERY_STRING'] == 'success=0'){
-        $error = "Sikertelen";
+        $error = "Hibás e-mail cím vagy jelszó!";
     }else{
         $error = "";
     }
@@ -52,6 +52,7 @@
                         </div>
                         <div class="form-bottom">
                             <form role="form" action="auth.php" method="post" class="login-form">
+                                <span class="error"><?php echo $error; ?></span>
                                 <div class="form-group">
                                     <label class="sr-only" for="form-username">E-mail</label>
                                     <input type="text" name="username" placeholder="E-mail" class="form-username form-control" id="form-username">
@@ -61,7 +62,6 @@
                                     <input type="password" name="password" placeholder="Jelszó" class="form-password form-control" id="form-password">
                                 </div>
                                 <button type="submit" class="btn">Bejelentkezés</button>
-                                <span class="error"><?php echo $error; ?></span>
                             </form>
                             <form method="post" action="regsitration.php" class="login-form registration">
                                 <input type="text" name="FirstName" placeholder="Vezetéknév" maxlength="25">
